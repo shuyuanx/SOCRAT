@@ -87,6 +87,17 @@ module.exports = class ChartsList extends BaseService
       z: false
       message: "Choose one variable to put into a pie chart."
       xLabel: "Category"
+    ,
+      name: 'Stacked Bar Chart'
+      value: 10
+      v: false
+      w: false
+      x: true
+      y: true
+      z: false
+      message: "Choose some values for x and y"
+      xLabel: "X"
+      yLabel: "Y"
 
     ]
 
